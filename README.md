@@ -1,16 +1,37 @@
+### video tutorial
+https://youtu.be/qbQ8wzJ6DrQ?si=gFz1mAy1xXC9a9Py
+
+
 ================
   PROJETO TODO
 ================
-# iniciar o projeto
+### iniciar o projeto
 - npm init -y
 
-# instalar pacotes
-- npm install express
-- npm install -g nodemon
-- npm install cors
 
-# inserir no arquivo (package.json)
+### instalar pacotes
+- npm install -g pnpm
+- pnpm install express
+- pnpm install -g nodemon
+- pnpm install -g nodemon -D
+- pnpm install cors
+
+
+### inserir no arquivo (package.json)
 - "dev": "nodemon src/server.js"
+
+
+### instalar prisma
+- pnpm install prima
+- npx prisma init
+
+### criar a migration
+- npx prisma migrate dev Todo
+- pnpm install @prisma/client
+
+
+
+
 
 ================
  CONFIG VSCODE
