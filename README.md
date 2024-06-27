@@ -27,9 +27,12 @@ https://youtu.be/qbQ8wzJ6DrQ?si=gFz1mAy1xXC9a9Py
 
 ### criar a migration
 - npx prisma migrate dev Todo
+
+### instalar prisma client
 - pnpm install @prisma/client
 
-
+### abrir banco de dados
+- npx prisma studio
 
 
 
