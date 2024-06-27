@@ -15,6 +15,7 @@ https://youtu.be/qbQ8wzJ6DrQ?si=gFz1mAy1xXC9a9Py
 - pnpm install -g nodemon
 - pnpm install -g nodemon -D
 - pnpm install cors
+- pnpm install dotenv
 
 
 ### inserir no arquivo (package.json)
@@ -34,6 +35,8 @@ https://youtu.be/qbQ8wzJ6DrQ?si=gFz1mAy1xXC9a9Py
 ### abrir banco de dados
 - npx prisma studio
 
+### criar nova migration
+- npx prisma migrate dev AddDefaultValueStatusTodo
 
 
 ================
